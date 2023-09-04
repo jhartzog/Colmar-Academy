@@ -134,3 +134,148 @@ li {
         display: inline-block;
         opacity: 1.0;
     }
+
+    /* Basic Information Section*/
+
+    .basic-info {
+        display: inline-flex;
+        height: auto;
+        width: 100%;
+        background-color: white;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        opacity: 1.0;
+    }
+
+    .basic-info-left {
+        float: left;
+        width: 60%;
+        padding-left: 24px;
+        /*padding-right: 24px;*/
+        padding-bottom: 32px;
+        opacity: 1.0;
+    }
+
+    #basic-info-photo {
+        float: left;
+        width: 100%;
+        padding-bottom: 32px;
+        opacity: 1.0;
+    }
+
+    .basic-info-left p {
+        padding-bottom: 32px;
+    }
+
+    .basic-info-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 24px;
+        width: 40%
+        padding-top: 32px;
+    }
+
+    .stuff {
+        display: inline-flex;
+        height: auto;
+        width: 100%;
+        background-color: #f2f2f2;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        opacity: 1.0;
+    }
+
+    .stuff .stuff-photo {
+        float: left;
+        height: auto;
+        width: 35%;
+        padding-left: 16px;
+
+    }
+
+    .stuff .stuff-text {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        padding-left: 16px;
+        justify-content: center;
+    }
+
+    .stuff h3 {
+        padding: 0 0 0 0;
+    }
+
+
+    /* Start Learning Section*/
+
+.start-learning {
+    height: auto;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding-top: 32px;
+    padding-right: 40px;
+    opacity: 1.0;
+}
+
+.start-learning h2 {
+    font-family: roboto;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333333;
+    opacity: 1.0;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.courses-1 {
+    display: inline-flex;
+    height: auto;
+    /*max-width: 33%;*/
+    background-color: #f2f2f2;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 72px;
+    opacity: 1.0;
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+.courses-2 {
+    display: inline-flex;
+    height: auto;
+    /*max-width: 100px;*/
+    background-color: #f2f2f2;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 72px;
+    opacity: 1.0;
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+.course-photo {
+    height: auto;
+    /*max-width: 100%;*/
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 16px;  
+}
+
+.start-learning .course-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 100%;
+    padding-bottom: 24px;
+}
+
+.start-learning h3 {
+    font-weight: bold;
+}
+
+.start-learning p {
+    padding-top: 8px;
+}
